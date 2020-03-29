@@ -66,5 +66,5 @@ plt.title('log-log graph')
 plt.yscale("log")
 plt.xscale("log")
 plt.legend()
-
-plt.show()
+plt.savefig('Figure_1.png')
+#plt.show()
