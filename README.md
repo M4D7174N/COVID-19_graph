@@ -2,4 +2,4 @@
 This is a timeseries graph.
 
 # Output
-![Alt text](relative/Figure_1.png?raw=true "Title")
+![Update in 4 hours](Figure_1.png)
