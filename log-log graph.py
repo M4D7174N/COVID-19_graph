@@ -52,7 +52,7 @@ plt.rc('axes', prop_cycle=(cycler('color', ['#ff0000', '#00ff00', '#0000ff', '#f
     '#008080',	'#000080',	'#800080'])))
 for i in range(0, len(countries_cumul)):
     if countries_cumul_avg[i][len(countries_cumul_avg[i])-1] > 5000:
-        plt.plot(countries_cumul_avg[i], countries_new_avg[i], label = country[i])
+        plt.plot(countries_cumul_avg[i], countries_new_avg[i], label = country[i], linewidth=0.5)
 
 # naming the x axis 
 plt.xlabel('Total Infected') 
@@ -67,4 +67,4 @@ plt.yscale("log")
 plt.xscale("log")
 plt.legend()
 plt.savefig(r"C:\Users\Sanjeet\Documents\py_projects\COVID-19 Visual\Figure_1.png", dpi = 400)
-#plt.show()
+plt.show()
